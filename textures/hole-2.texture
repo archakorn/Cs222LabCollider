@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "hole",
+  "identifier": "texture:6963-f01d983d-7561-4a65-a8f5-c3d0badc1b55",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "b2630b1c50e5d7a7134c014a5918bd2a",
+  "assetLocator": "textures/hole.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 63,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 130,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "b2630b1c50e5d7a7134c014a5918bd2a",
+      "colorCount": 2491,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 5.602581842223672,
+      "pixelsHigh": 63,
+      "pixelsWide": 130
+    }
+  ]
+}

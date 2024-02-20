@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "Glasses",
+  "identifier": "texture:182069-ff8c9196-9473-46f6-aa42-e7cc9a0f7d5b",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "2971f2fa13b1bc283a45db9d88afd94b",
+  "assetLocator": "textures/Glasses.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 88,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 264,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "2971f2fa13b1bc283a45db9d88afd94b",
+      "colorCount": 10760,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 10.082275393715475,
+      "pixelsHigh": 88,
+      "pixelsWide": 264
+    }
+  ]
+}
