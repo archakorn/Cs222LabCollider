@@ -610,14 +610,14 @@
                           "textureWidth": 0.1,
                           "transform": {
                             "rx": -1.2603422403335571,
-                            "ry": -1.2801976367882162E-8,
-                            "rz": 5.567525995786582E-9,
+                            "ry": -2.5603952735764324E-8,
+                            "rz": 3.86726339840493E-9,
                             "sx": 0.21824504435062408,
                             "sy": 0.3179968297481537,
                             "sz": 0.9999998807907104,
-                            "x": 0.0013442151248455048,
-                            "y": -0.013214890845119953,
-                            "z": 0.3565974831581116
+                            "x": 0.001341918483376503,
+                            "y": -0.013181081041693687,
+                            "z": 0.35648998618125916
                           },
                           "verticalAlignment": "center",
                           "verticalSpacing": 0
@@ -747,11 +747,11 @@
                           "textureHeight": 0.1,
                           "textureWidth": 0.1,
                           "transform": {
-                            "rx": -5.587935447692871E-9,
-                            "ry": -1.1810766586961563E-8,
-                            "rz": 3.0218954005789556E-9,
-                            "sx": 0.6308295726776123,
-                            "sy": 0.7456594109535217,
+                            "rx": -6.51925802230835E-9,
+                            "ry": -1.4763460676192608E-8,
+                            "rz": 4.4290380252220984E-9,
+                            "sx": 0.6308294534683228,
+                            "sy": 0.7456591725349426,
                             "sz": 1,
                             "x": -0.0556173101067543,
                             "y": 0.023375095799565315,
@@ -776,7 +776,7 @@
                           "horizontalSpacing": 0,
                           "isMaterialIdentifierEnabled": true,
                           "layerIdentifier": "layer0",
-                          "materialIdentifier": "defaultMaterial:17879-58a5982d-9d8a-4712-964d-4b5fc47ad001",
+                          "materialIdentifier": "defaultMaterial:5081-675ede1f-96a1-4229-8335-b7528d539e8b",
                           "outputVisibility": "preview|capture",
                           "physicsEnabled": false,
                           "receiveShadow": false,
@@ -797,7 +797,38 @@
                           },
                           "verticalAlignment": "center",
                           "verticalSpacing": 0
-                        },
+                        }
+                      ]
+                    },
+                    {
+                      "modelName": "sceneObject",
+                      "name": "collider4",
+                      "identifier": "sceneObject:76085-675ede1f-96a1-4229-8335-b7528d539e8b",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "hidden": false,
+                      "layerIdentifier": "layer0",
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "shapeColor": "0xff808080",
+                      "shapeType": 0,
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "children": [
                         {
                           "modelName": "plane",
                           "name": "plane2",
@@ -823,14 +854,14 @@
                           "textureHeight": 0.1,
                           "textureWidth": 0.1,
                           "transform": {
-                            "rx": -6.984919309616089E-9,
+                            "rx": -7.450580152834618E-9,
                             "ry": -1.1126658705506998E-8,
-                            "rz": 3.274251092477698E-9,
+                            "rz": 3.6234970579585024E-9,
                             "sx": 0.5022114515304565,
-                            "sy": 0.6024049520492554,
+                            "sy": 0.6024048924446106,
                             "sz": 1,
                             "x": 0.020727727562189102,
-                            "y": 0.017375247552990913,
+                            "y": 0.017375245690345764,
                             "z": 0.32344841957092285
                           },
                           "verticalAlignment": "center",

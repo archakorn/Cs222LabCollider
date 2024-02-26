@@ -1,1 +1,36 @@
-{ "dataModelPlaceholderFile": true }
+{
+  "modelName": "texture",
+  "name": "tflght(2)",
+  "identifier": "texture:3597-675ede1f-96a1-4229-8335-b7528d539e8b",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "6d46767ba1f8a577c357825dc919e040",
+  "assetLocator": "textures/tflght(2).png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 292,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 60,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "6d46767ba1f8a577c357825dc919e040",
+      "colorCount": 6655,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 7.212183703634082,
+      "pixelsHigh": 292,
+      "pixelsWide": 60
+    }
+  ]
+}

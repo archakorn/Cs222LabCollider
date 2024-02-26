@@ -1,10 +1,10 @@
 {
   "modelName": "texture",
-  "name": "face(2)",
-  "identifier": "texture:3593-675ede1f-96a1-4229-8335-b7528d539e8b",
+  "name": "face(3)",
+  "identifier": "texture:6655-675ede1f-96a1-4229-8335-b7528d539e8b",
   "alphaPremultiplicationMode": "should_premultiply",
   "assetDataHash": "4704797f48ad4cf6f85cd1d569b532a7",
-  "assetLocator": "textures/face(2).png",
+  "assetLocator": "textures/face(3).png",
   "colorEncoding": "linear",
   "compressionQuality": "high",
   "coordMapping": "none",

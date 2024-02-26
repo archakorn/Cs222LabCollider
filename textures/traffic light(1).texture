@@ -1,1 +1,36 @@
-{ "dataModelPlaceholderFile": true }
+{
+  "modelName": "texture",
+  "name": "traffic light(1)",
+  "identifier": "texture:2131-675ede1f-96a1-4229-8335-b7528d539e8b",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "c8830c87271d37dd2f5373005e0e3bcc",
+  "assetLocator": "textures/traffic light(1).png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 340,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 89,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "c8830c87271d37dd2f5373005e0e3bcc",
+      "colorCount": 7205,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 4.828462098669053,
+      "pixelsHigh": 340,
+      "pixelsWide": 89
+    }
+  ]
+}
