@@ -321,7 +321,7 @@
           "modelName": "sequenceTexture",
           "name": "CorliderSequence0",
           "identifier": "sequenceTexture:4914-f01d983d-7561-4a65-a8f5-c3d0badc1b55",
-          "frameRate": 0.05,
+          "frameRate": 0.005,
           "sourceTextureIdentifier": "textureGroup:5336-f01d983d-7561-4a65-a8f5-c3d0badc1b55"
         },
         {

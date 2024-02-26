@@ -97,9 +97,17 @@
       },
       {
         "modelName": "patch_connection_model",
-        "identifier": "patch_connection_model:74267-58a5982d-9d8a-4712-964d-4b5fc47ad001",
+        "identifier": "patch_connection_model:396871-58a5982d-9d8a-4712-964d-4b5fc47ad001",
         "fromPatch": "template_patch_model:20515-58a5982d-9d8a-4712-964d-4b5fc47ad001",
         "fromPort": "100",
+        "toPatch": "patch_group_model:396865-58a5982d-9d8a-4712-964d-4b5fc47ad001",
+        "toPort": "13253040403392876200"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:74267-58a5982d-9d8a-4712-964d-4b5fc47ad001",
+        "fromPatch": "port_forwarding_patch_model:396869-58a5982d-9d8a-4712-964d-4b5fc47ad001",
+        "fromPort": "13253040403392876200",
         "toPatch": "template_patch_model:74265-58a5982d-9d8a-4712-964d-4b5fc47ad001",
         "toPort": "101"
       },
@@ -186,8 +194,8 @@
         "object": "sceneObject:4494-f01d983d-7561-4a65-a8f5-c3d0badc1b55",
         "objectProperty": "position",
         "position": [
-          452,
-          92
+          238,
+          -50
         ],
         "values": [
           {
@@ -299,12 +307,28 @@
           -700
         ],
         "subpatches": [
-          "consumer_patch_model:127553-58a5982d-9d8a-4712-964d-4b5fc47ad001",
           "consumer_patch_model:20527-58a5982d-9d8a-4712-964d-4b5fc47ad001",
+          "patch_group_model:396865-58a5982d-9d8a-4712-964d-4b5fc47ad001",
           "template_patch_model:19851-58a5982d-9d8a-4712-964d-4b5fc47ad001",
           "template_patch_model:20515-58a5982d-9d8a-4712-964d-4b5fc47ad001",
           "template_patch_model:20519-58a5982d-9d8a-4712-964d-4b5fc47ad001",
-          "template_patch_model:20523-58a5982d-9d8a-4712-964d-4b5fc47ad001",
+          "template_patch_model:20523-58a5982d-9d8a-4712-964d-4b5fc47ad001"
+        ]
+      },
+      {
+        "modelName": "patch_group_model",
+        "name": "Collider1",
+        "identifier": "patch_group_model:396865-58a5982d-9d8a-4712-964d-4b5fc47ad001",
+        "inputPorts": [
+          "patch_input_port_model:396867-58a5982d-9d8a-4712-964d-4b5fc47ad001"
+        ],
+        "position": [
+          -100,
+          116
+        ],
+        "subpatches": [
+          "consumer_patch_model:127553-58a5982d-9d8a-4712-964d-4b5fc47ad001",
+          "port_forwarding_patch_model:396869-58a5982d-9d8a-4712-964d-4b5fc47ad001",
           "template_patch_model:74265-58a5982d-9d8a-4712-964d-4b5fc47ad001",
           "template_patch_model:74269-58a5982d-9d8a-4712-964d-4b5fc47ad001",
           "template_patch_model:74273-58a5982d-9d8a-4712-964d-4b5fc47ad001"
@@ -331,6 +355,15 @@
           "template_patch_model:78473-f01d983d-7561-4a65-a8f5-c3d0badc1b55",
           "template_patch_model:78479-f01d983d-7561-4a65-a8f5-c3d0badc1b55",
           "template_patch_model:79294-f01d983d-7561-4a65-a8f5-c3d0badc1b55"
+        ]
+      },
+      {
+        "modelName": "port_forwarding_patch_model",
+        "name": "Input",
+        "identifier": "port_forwarding_patch_model:396869-58a5982d-9d8a-4712-964d-4b5fc47ad001",
+        "position": [
+          -320,
+          -50
         ]
       },
       {
@@ -407,8 +440,8 @@
         "name": "Loop Animation",
         "identifier": "template_patch_model:74265-58a5982d-9d8a-4712-964d-4b5fc47ad001",
         "position": [
-          -124,
-          92
+          -338,
+          -50
         ],
         "templateId": "builtin.group.loopAnimation",
         "values": [
@@ -426,8 +459,8 @@
         "name": "Random",
         "identifier": "template_patch_model:74269-58a5982d-9d8a-4712-964d-4b5fc47ad001",
         "position": [
-          92,
-          92
+          -122,
+          -50
         ],
         "templateId": "builtin.random",
         "values": [
@@ -452,8 +485,8 @@
         "name": "Pack",
         "identifier": "template_patch_model:74273-58a5982d-9d8a-4712-964d-4b5fc47ad001",
         "position": [
-          308,
-          92
+          94,
+          -50
         ],
         "templateId": "builtin.group.pack",
         "variantInfo": "shader_vec3"
@@ -576,6 +609,16 @@
         ],
         "templateId": "builtin.group.pack",
         "variantInfo": "shader_vec3"
+      }
+    ],
+    "ports": [
+      {
+        "modelName": "patch_input_port_model",
+        "identifier": "patch_input_port_model:396867-58a5982d-9d8a-4712-964d-4b5fc47ad001",
+        "forwardingPatch": "port_forwarding_patch_model:396869-58a5982d-9d8a-4712-964d-4b5fc47ad001",
+        "portName": "Input",
+        "portTag": "13253040403392876200",
+        "portType": "bool"
       }
     ]
   }
